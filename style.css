@@ -1,6 +1,23 @@
+@font-face {
+src: url(assets/wamsoo.ttf); 
+font-family: wamsoo; 
+}
+
 .font {
-font-family: kepler-std-display, serif;
+font-family: wamsoo, serif;
 font-weight: 900;
 font-style: normal;
-color: #91251d; 
+color: #91251d;
+font-size: 5vh; 
+}
+
+html {
+background-color: #eadec8;
+margin: 100px;
+}
+
+.name{
+position: absolute; 
+right: 0vh; 
+bottom: 0vh; 
 }
