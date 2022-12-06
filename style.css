@@ -61,14 +61,14 @@ nav {
 }
 
 .menu-button.open {
-    border: solid 2px #eadec8;
+    border: solid 2px #91251d;
 }
 
 .menu {
     position: fixed;
     height: 100vh;
     width: 500px;
-    background-color: #91251d;
+    background-color: #eadec8;
     color: white;
     left: calc(100% - 500px);
     text-align: center;
@@ -103,5 +103,29 @@ nav {
     opacity: 0.5;
     z-index: -20;
 }
+
+      a:link {
+        color: #91251d;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #91251d;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #000000;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:active {
+        color: #91251d;
+        background-color: transparent;
+        text-decoration: none;
+      }
 
         
