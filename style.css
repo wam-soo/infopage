@@ -11,6 +11,47 @@ color: #91251d;
 font-size: 5vh; 
 }
 
+.font2 {
+font-family: wamsoo, serif;
+font-weight: 900;
+font-style: normal;
+color: #91251d;
+font-size: 8vh;
+position: absolute; 
+top: 0vw; 
+left: 40vw; 
+}
+
+.font3 {
+font-family: wamsoo, serif;
+font-weight: 900;
+font-style: normal;
+color: #91251d;
+font-size: 5vh; 
+position: absolute; 
+top: 10vw;
+left: 41vw; 
+}
+
+.font4 {
+font-family: wamsoo, serif;
+font-weight: 900;
+font-style: normal;
+color: #91251d;
+font-size: 5vh; 
+position: absolute; 
+top: 43.5vw;
+left: 41.5vw; 
+}
+
+.font5 {
+font-family: wamsoo, serif;
+font-weight: 900;
+font-style: normal;
+color: #91251d;
+font-size: 8vh; 
+}
+
 .menutext {
 font-family: wamsoo, serif;
 font-weight: 900;
@@ -28,6 +69,12 @@ margin: 100px;
 position: absolute; 
 right: 0vh; 
 bottom: 0vh; 
+}
+
+.img{
+position: absolute; 
+top: 17vw; 
+left: 34.5vw; 
 }
 
 body {
@@ -52,7 +99,7 @@ nav {
     right: 30px;
     width: 60px;
     height: 60px;
-    border: solid 2px #91251d;
+    border: solid 5px #91251d;
     border-radius: 50%;
     z-index: 100;
     -webkit-transition: all 0.4s ease;
@@ -61,7 +108,7 @@ nav {
 }
 
 .menu-button.open {
-    border: solid 2px #91251d;
+    border: solid 5px #91251d;
 }
 
 .menu {
